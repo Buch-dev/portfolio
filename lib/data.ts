@@ -1,10 +1,10 @@
+import moviebox from "@/public/moviebox.png";
+import nysc from "@/public/nysc.png";
+import shopify from "@/public/shopify.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -36,51 +36,59 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Lagos, Nigeria",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 12 months of studying. I immediately found an internship as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I volunteered worked as a front-end developer intern for 3 month in a non-profit organization.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End Developer Intern at NexaScale",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I got employed as a Front-End developer intern. Worked pending production",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Front-End Developer (Freelancer)",
+    location: "Remote, Hybrid, Onsite",
+    description:
+      "I'm now a frontend developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MovieBox",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked on a movie app task during my HNG internship.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: moviebox,
   },
   {
-    title: "rmtDev",
+    title: "Shopify Admin dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Shopify dashboard using just HTML, CSS, and JavaScript. It exposed me to web accessibility for versatality",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: shopify,
   },
   {
-    title: "Word Analytics",
+    title: "Koppa",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public open-source web app for easy primary place of assignment for nysc corpers looking related to their field of interest. I worked on the user interface",
+    tags: ["Vue", "Tailwind"],
+    imageUrl: nysc,
   },
 ] as const;
 
@@ -91,6 +99,8 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Vue",
+  "Nuxt.js",
   "Node.js",
   "Git",
   "Tailwind",
