@@ -71,10 +71,10 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "MovieBox",
-    description:
-      "I worked on a movie app task during my HNG internship.",
+    description: "I worked on a movie app task during my HNG internship.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: moviebox,
+    url: "https://buchman-movie-app.netlify.app/",
   },
   {
     title: "Shopify Admin dashboard",
@@ -82,6 +82,7 @@ export const projectsData = [
       "Shopify dashboard using just HTML, CSS, and JavaScript. It exposed me to web accessibility for versatality",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: shopify,
+    url: "https://level-up-hackathon-eight.vercel.app/",
   },
   {
     title: "Koppa",
@@ -89,6 +90,7 @@ export const projectsData = [
       "A public open-source web app for easy primary place of assignment for nysc corpers looking related to their field of interest. I worked on the user interface",
     tags: ["Vue", "Tailwind"],
     imageUrl: nysc,
+    url: "https://koppa.live/",
   },
 ] as const;
 
